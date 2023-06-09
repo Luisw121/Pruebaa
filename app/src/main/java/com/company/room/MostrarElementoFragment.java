@@ -34,7 +34,7 @@ public class MostrarElementoFragment extends Fragment {
             @Override
             public void onChanged(Elemento elemento) {
                 binding.nombre.setText(elemento.nombre);
-                binding.precio.setText(elemento.precio+"€");
+                binding.horas.setText(elemento.hora+"PM");
                 binding.descripcion.setText(elemento.descripcion);
                 binding.valoracion.setRating(elemento.valoracion);
                 Picasso.get().load(elemento.URL).into(binding.imagen);

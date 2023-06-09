@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -21,7 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15dp"
-                android:hint="Nombre"
+                android:hint="Tu nombre?"
                 android:textSize="28sp" />
 
             <EditText
@@ -29,15 +30,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15dp"
-                android:hint="Descripción"
+                android:hint="Qué estas haciendo?"
                 android:textSize="28sp" />
 
             <EditText
-                android:id="@+id/precio"
+                android:id="@+id/hora"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15dp"
-                android:hint="Precio"
+                android:hint="Qué hora es?"
                 android:textSize="28sp" />
 
             <EditText
@@ -49,11 +50,13 @@
                 android:textSize="28sp" />
 
             <Button
-                android:id="@+id/crear"
+                android:id="@+id/publicar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Crear"
-                android:textSize="32sp" />
+                android:text="Publicar"
+                android:textSize="32sp"
+                android:shadowColor="@color/Blue"
+                app:iconTint="#000000" />
 
         </LinearLayout>
 

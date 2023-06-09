@@ -10,15 +10,15 @@ public class Elemento {
 
     String nombre;
     String descripcion;
-    int precio;
+    int hora;
     String URL;
 
     float valoracion;
 
-    public Elemento(String nombre, String descripcion, int precio ,String URL) {
+    public Elemento(String nombre, String descripcion, int hora ,String URL) {
         this.nombre = nombre;
         this.descripcion = descripcion;
-        this.precio = precio;
+        this.hora = hora;
         this.URL=URL;
 
 

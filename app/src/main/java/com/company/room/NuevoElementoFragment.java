@@ -46,12 +46,12 @@ public class NuevoElementoFragment extends Fragment {
         ElementosViewModel elementosViewModel = new ViewModelProvider(requireActivity()).get(ElementosViewModel.class);
         NavController navController = Navigation.findNavController(view);
 
-        binding.crear.setOnClickListener(new View.OnClickListener() {
+        binding.publicar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String nombre = binding.nombre.getText().toString();
                 String descripcion = binding.descripcion.getText().toString();
-                int precio = Integer.parseInt(binding.precio.getText().toString());
+                int precio = Integer.parseInt(binding.hora.getText().toString());
                 String url = binding.url.getText().toString();
 
                 elementosViewModel.insertar(new Elemento(nombre, descripcion,precio, url ));

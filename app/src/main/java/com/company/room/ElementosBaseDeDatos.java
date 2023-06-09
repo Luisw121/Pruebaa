@@ -58,7 +58,7 @@ public abstract class ElementosBaseDeDatos extends RoomDatabase {
         @Delete
         void eliminar(Elemento elemento);
 
-        @Query("SELECT * FROM Elemento ORDER BY precio DESC")
+        @Query("SELECT * FROM Elemento ORDER BY hora DESC")
         LiveData<List<Elemento>> masValorados();
 
         @Query("SELECT * FROM Elemento WHERE nombre LIKE '%' || :d || '%'")

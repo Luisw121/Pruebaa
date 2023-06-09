@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_marginTop="8dp"
-        android:text="Precio total"
+        android:text="Publicado hace menos de 1 min."
         android:textColor="@color/Black"
         android:textSize="17dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,7 +59,7 @@
 
     <TextView
         android:id="@+id/informacion"
-        android:text="Localidad - Kilometros - Año - Combustible"
+        android:text="Barcelona, España"
         android:layout_width="match_parent"
         android:layout_height="30dp"
 
@@ -69,7 +69,7 @@
         app:layout_constraintTop_toBottomOf="@id/precio" />
     <TextView
         android:id="@+id/garantia"
-        android:text="Garantia"
+        android:text="User registrado"
         android:layout_width="match_parent"
         android:layout_height="30dp"
 

@@ -123,7 +123,7 @@ public class RecyclerElementosFragment extends Fragment {
             Elemento elemento = elementos.get(position);
             Picasso.get().load(elemento.URL).into(holder.binding.imagen);
             holder.binding.nombre.setText(elemento.nombre);
-            holder.binding.precio.setText(elemento.precio+"€");
+            holder.binding.precio.setText(elemento.hora+"PM");
 
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
