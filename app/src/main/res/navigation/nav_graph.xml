@@ -27,7 +27,6 @@
     <action
         android:id="@+id/action_nuevoElementoFragment"
         app:destination="@id/nuevoElementoFragment" />
-
     <fragment
         android:id="@+id/nuevoElementoFragment"
         android:name="com.company.room.NuevoElementoFragment"
