@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/DimGray"
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".NuevoElementoFragment">
@@ -22,7 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15dp"
-                android:hint="Tu nombre?"
+                android:hint="Nombre de la publicación"
                 android:textSize="28sp" />
 
             <EditText
@@ -30,7 +31,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15dp"
-                android:hint="Qué estas haciendo?"
+                android:hint="Añade una descripción"
                 android:textSize="28sp" />
 
             <EditText
