@@ -7,7 +7,6 @@ import androidx.room.PrimaryKey;
 public class Elemento {
     @PrimaryKey(autoGenerate = true)
     int id;
-
     String nombre;
     String descripcion;
     int hora;

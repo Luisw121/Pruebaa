@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.bottomNavView, navController);
 
         navController.addOnDestinationChangedListener(new NavController.OnDestinationChangedListener() {
+
             @Override
             public void onDestinationChanged(@NonNull NavController controller,
                                              @NonNull NavDestination destination, @Nullable Bundle arguments) {

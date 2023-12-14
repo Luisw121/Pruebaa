@@ -32,7 +32,6 @@ import java.util.List;
 
 
 public class RecyclerElementosFragment extends Fragment {
-
     private FragmentRecyclerElementosBinding binding;
     ElementosViewModel elementosViewModel;
     private NavController navController;

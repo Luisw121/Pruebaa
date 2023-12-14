@@ -29,7 +29,6 @@ public class MostrarElementoFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         ElementosViewModel elementosViewModel = new ViewModelProvider(requireActivity()).get(ElementosViewModel.class);
-
         elementosViewModel.seleccionado().observe(getViewLifecycleOwner(), new Observer<Elemento>() {
             @Override
             public void onChanged(Elemento elemento) {

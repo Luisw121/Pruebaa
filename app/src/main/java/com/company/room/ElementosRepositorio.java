@@ -9,7 +9,6 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
 public class ElementosRepositorio {
-
     ElementosBaseDeDatos.ElementosDao elementosDao;
     Executor executor = Executors.newSingleThreadExecutor();
 

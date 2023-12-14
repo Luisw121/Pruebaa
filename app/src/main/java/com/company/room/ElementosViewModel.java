@@ -14,10 +14,7 @@ import java.util.List;
 public class ElementosViewModel extends AndroidViewModel {
 
     ElementosRepositorio elementosRepositorio;
-
-
     MutableLiveData<Elemento> elementoSeleccionado = new MutableLiveData<>();
-
     MutableLiveData<String> terminoBusqueda = new MutableLiveData<>();
 
     LiveData<List<Elemento>> resultadoBusqueda = Transformations.switchMap(terminoBusqueda, new Function<String, LiveData<List<Elemento>>>() {
